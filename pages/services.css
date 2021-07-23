@@ -1,0 +1,46 @@
+.services {
+    position: relative;      
+    background-color: rgb(235, 233, 233);
+    display: block;        
+    width: 100%;
+    height: 100%;
+}
+.services-item {
+    padding: 15px 30px;
+}
+
+.services-item h2 {
+    padding: 25px;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+
+.services-list > li {
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+.services-list-second >li {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    list-style-type: square;
+}
+.services-list-third > li {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    list-style-type: circle;
+}

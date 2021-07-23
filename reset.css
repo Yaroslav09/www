@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+body,
+h1, h2, h3, h4, p,
+ul, ol, li,
+figure, figcaption, blockquote,
+dl,dd {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;  
+  line-height: 1.5;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, 
+button, 
+textarea {
+    font-family: inherit;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

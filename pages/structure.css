@@ -1,0 +1,66 @@
+.structure {
+    position: relative;    
+    padding-top: 140px;
+    display: block;    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.structure-item {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+
+.structure-item h2 {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;   
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: yellow;
+    font-size: 20px;
+    padding: 8px 0px;
+}
+td {
+    padding: 5px 0px 5px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+.name-structure {
+    background-color: lightgray;
+}
+.count-fin-name,
+.count-fin {
+    background-color: gray;
+}
+.count {
+    text-align: center;
+}
+@media (max-width: 640px) {
+    .structure-item h2 {
+        padding: 10px;
+        font-size: 22px;
+        text-align: center;
+    }
+    th {        
+        font-size: 18px;       
+    }
+    td {
+        padding-left: 10px;    
+    }
+    .structure-item {
+        padding: 4px;
+}

@@ -1,0 +1,39 @@
+.directory {
+    position: relative;
+    padding-top: 140px;
+    background-color: rgb(235, 233, 233);
+    display: block;        
+}
+.directory-item h2 {
+    padding: 25px;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+.adress {
+    margin-bottom: 20px;
+    padding: 10px 10px 30px 40px;
+    border-bottom: 1px solid rgb(168, 167, 167);
+}
+.adress:last-child {
+    border-bottom: none;
+}
+.adress p>span {
+    margin-left: -20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style:normal;
+    text-align: left;
+    color: rgb(27, 27, 27);
+}
+
+.adress .tell{
+    font-size: 18px;
+    font-weight: 400;
+    font-style:normal;
+    text-align: left;
+    color: rgb(45, 98, 243);
+    cursor: pointer;
+}
